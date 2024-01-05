@@ -1,0 +1,195 @@
+.main-inscription {
+    /* background-color: white; */
+    margin-top: 100px;
+    color: white;
+    font-size: 150px;
+    margin-left: 200px;
+  
+}
+
+.start {
+    margin-top: 100px;
+    margin-bottom: 70px;
+    background-color: white;
+    color: black;
+    text-align: center;
+}
+
+.list {
+    color: white;
+    font-size: 30px;
+    margin-left: 60px;
+    margin-top: 70px;
+}
+
+.elem {
+    color: white;
+    font-size: 20px;
+    margin-left: 80px;
+    margin-bottom: 20px;
+}
+
+.imgs {
+  
+    margin-bottom: 100px;
+
+
+}
+
+.cls {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    /* margin-bottom: 200px; */
+  
+}
+
+
+
+/*  */
+
+
+
+.work1 {
+    display: flex;
+    justify-content: start;
+    margin-left: 100px;
+    margin-top: 10px;
+    width: 1000px;
+    z-index: 100;
+   
+}
+
+.work1 .w1 {
+    display: inline-block;
+    background-color: white;
+    width: 250px;
+    height: 250px;
+    color: white;
+    margin: 70px;
+    z-index: 100;
+    border-radius: 15px;
+    border: 3px solid;
+    border-color: black;
+}
+
+
+.work2 {
+    display: flex;
+    justify-content: start;
+    margin-left: 100px;
+    margin-top: 50px;
+    width: 1000px;
+    z-index: 100;
+   
+}
+
+.work2 .w2 {
+    display:inline-block ;
+    background-color: white;
+    width: 250px;
+    height: 250px;
+    color: white;
+    margin: 70px;
+    z-index: 100;
+    border-radius: 15px;
+    border: 3px solid;
+    border-color: black;
+}
+
+
+.img {
+    margin-top: -800px;
+    margin-left: 850px;
+    z-index: 10;
+  
+    
+    
+}
+.img1 {
+    width: 1000;
+}
+
+.text {
+    text-align: center;
+    color: black;
+    margin-top: 100px;
+}
+
+.descrs {
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+}
+
+.descr {
+    
+    width: 70%;
+    height: 100px;
+    background-color: white;
+    border-radius: 15px;
+    border: 3px solid;
+    border-color: black;
+    
+    
+}
+
+.descrs .descr h2{
+    text-align: center;
+    margin-top: 35px;
+}
+
+/*  */
+
+
+.commentaries {
+    margin-top: 200px;
+    text-align: center;
+    color: white;
+    font-size: 50px;
+}
+
+
+.comments {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
+
+.comments .comment {
+    width: 300px;
+    height: 300px;
+    background-color: white;
+    border-radius: 15px;
+    border: 3px solid;
+    border-color: black;
+
+}
+
+
+.comm {
+    margin-top: 150px;
+    margin-left: 170px;
+    color: white;
+}
+
+
+.m {
+    display: flex;
+    justify-content: center;
+}
+.video {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 200px;
+    background-color: #FFFFFF;
+    width: 800px;
+    height: 600px;
+    border-radius: 15px;
+    border: 3px solid;
+    border-color: black;
+    margin-top: 200px;
+
+}

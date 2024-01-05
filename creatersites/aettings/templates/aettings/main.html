@@ -1,0 +1,80 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'aettings/style.css' %}">
+    <script src="{% static 'aettings/js/preloader.js' %}"></script>
+    <script src="{% static 'aettings/js/main.js' %}"></script>
+    <script src="{% static 'aettings/js/menu.js' %}"></script>
+    {% block links %}
+    
+    
+    {% endblock %}
+    <title>B.W.M</title>
+    
+</head>
+<body>
+
+
+    <div class="preloader" id="page-preloader">
+        <div class="loader">
+
+        </div>
+    </div>
+
+   
+  
+  
+    <header class="heads">
+        <div class="link" id="main-header">
+            <img src="{% static 'aettings/img/image.png' %}" alt="" class="logo">
+            <img class="menu" src="{% static 'aettings/img/menu.png' %}" alt="" class="logo" id="burg">
+            
+        </div>
+
+        <div class="menus" id="menu">
+            <a href="{% url 'about' %}">about us</a>
+            <a href="{% url 'main' %}">Main</a>
+            <a href="#">Our works</a>
+            <a href="#">contacts</a>
+        </div>
+
+        
+        
+    </header>
+
+    
+
+    <main>
+        
+        {% block content %}
+
+
+        {% endblock %}
+    </main>
+
+    <footer>
+
+        <div class="footer">
+            <div class="company">
+                <h2>Компанія</h2>
+                <h3>Website are easy</h3>
+            </div>
+
+            <div class="media">
+                <h2>Ми є у:</h2>
+                <h3>Instagram</h3>
+                <h3>Telegram</h3>
+                <h3>Facebook</h3>
+            </div>
+
+        </div>
+
+    </footer>
+
+   
+
+</body>
+</html>
